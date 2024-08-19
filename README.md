@@ -2,7 +2,7 @@
 *The point about start.*
 
 ## Creation of CAD software based on Python.
-Compared to other programming languages, I'm not as proficient in Python, so I'll be working on a project to learn it at the same time.Lol
+Compared to other programming languages, I'm not as proficient in Python, so I'll be working on a project to learn it simultaneously. Also, my English is poor, lol.
 
 ### How to use
 You need to install ezdxf
