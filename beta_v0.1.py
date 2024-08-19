@@ -1,31 +1,11 @@
 import ezdxf
 
-print("""
-           
-       _ - D - _
-  A_ -     .     - _     
-  |- _     .         - _ 
-  |    - _ .         _ - C
-  |        - _   _ -     |
-  |        .   B         |
-  |        .   |         |
-  |    _ - H - |         |
-  |_ -         | - _     |
-  E- _         |     - _ |
-       - _     |     _ - G
-           - _ | _ -     
-               F
-""")
-
-
-import ezdxf
-
 def create_cube_dxf(filename, points):
     # 創建一個新的 DXF 文件
     doc = ezdxf.new()
     msp = doc.modelspace()
     
-    # 確保有 8 個點
+    # 確保有 8 個點S
     if len(points) != 8:
         raise ValueError("需要 8 個三維點來生成立方體")
 
