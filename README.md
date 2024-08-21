@@ -13,6 +13,3 @@ You need to install ezdxf
 pip install ezdxf
 ```
 
-## beta
-### v0.1
-Just trying to figure out how to use ezdxf.
